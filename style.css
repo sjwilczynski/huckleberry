@@ -33,7 +33,7 @@ header {
   max-width: 320px;
 }
 
-strong {
+.intro-chunk strong {
   color: hsl(160deg, 100%, 30%);
 }
 
@@ -46,9 +46,13 @@ main {
 .card {
   margin-left: -16px;
   margin-right: -16px;
-  padding: 8px 16px;
+  padding: 16px;
   background-color: hsl(0deg, 0%, 100%);
   border-bottom: 8px solid hsl(0deg, 0%, 30%);
+}
+
+.card p:last-child{
+  margin-bottom: 0;
 }
 
 .indented-heading {
@@ -56,6 +60,7 @@ main {
   max-width: fit-content;
   padding: 8px 24px;
   margin: 0;
+  margin-top: -8px;
   margin-left: -24px;
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
   font-size: 1.25rem;
