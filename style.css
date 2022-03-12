@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -9,4 +9,29 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+.max-width-wrapper {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+}
+
+.title {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.intro-chunk {
+  max-width: 320px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
